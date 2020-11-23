@@ -16,10 +16,10 @@ def bubbleSort(array):
                 array[j], array[j+1] = array[j+1], array[j]
 
 # Driver code to test above 
-array = [64, 34, 25, 12, 22, 11, 90] 
+array = [4, 314, 945, 32, 2, 1, 9] 
   
 bubbleSort(array) 
   
 print ("Sorted array is:") 
 for i in range(len(array)): 
-    print ("%d" %array[i]),
+    print ("%d" %array[i])
